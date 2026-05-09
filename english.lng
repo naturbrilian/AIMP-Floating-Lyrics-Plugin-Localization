@@ -47,6 +47,7 @@ ReplaceTimestamp=Replace Timestamp
 RemoveTimestamp=Remove Timestamp
 
 [LyricsPlayingWindow]
+Title=Lyrics Editor
 StartEditLyrics=Make / Edit Lyrics
 ResetPositionAndDimension=Reset Position & Dimension
 CenterHorizontally=Center Window Horizontally
