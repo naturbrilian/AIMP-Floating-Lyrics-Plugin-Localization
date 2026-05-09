@@ -9,14 +9,15 @@ Abbreviation=Floating Lyrics
 Preference=Preference
 PlayStyleGroupTitle=Play Style
 PlayStyleOption=Lyrics Play Style
+Opacity=Opacity
 InactiveOpacityOption=Inactive Line Opacity
 
 TextShadowGroupTitle=Text Shadow Settings
+ToggleTextShadow=Enabled?
 Color=Color
-Depth=Depth
+OffsetX=Horizontal Offset
+OffsetY=Vertical Offset
 BlurRadius=Blur Radius
-Angle=Angle
-Opacity=Opacity
 
 FontSettingsGroupTitle=Font Settings
 FontLatin=Latin Font
@@ -47,7 +48,7 @@ RemoveTimestamp=Remove Timestamp
 
 [LyricsPlayingWindow]
 StartEditLyrics=Make / Edit Lyrics
-ResetPositionSize=Reset Position And Size
+ResetPositionAndDimension=Reset Position & Dimension
 CenterHorizontally=Center Window Horizontally
 EnableResizing=Enable Resizing
 DisableResizing=Disable Resizing
