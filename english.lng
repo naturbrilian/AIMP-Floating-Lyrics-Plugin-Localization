@@ -55,4 +55,6 @@ EnableResizing=Enable Resizing
 DisableResizing=Disable Resizing
 OpenPreference=Preferences....
 WebViewNotInstalled=Edge WebView2 is not installed on your system, would you like to go download?
+WebViewNotInstalled2=Edge WebView2 is not installed on your system, plugin will not work >.<, you can download and install it from
 WebViewLowVersion=You are using an old version({0} < 124) of Edge WebView2, which may cause Floating Lyrics Plugin not working properly. You can try to upgrade your Edge Browser.
+WebViewNavigationFailure=Edge WebView2 failed to navigate >.< Check if you have copied plugin files correctly. If problem still exists, please report developer, thank you!
