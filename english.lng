@@ -24,6 +24,7 @@ FontLatin=Latin Font
 FontMain=Main Font
 FontSize=Size
 Weight=Weight
+LetterSpacing=Letter Spacing
 
 WindowSettingsGroupTitle=Window Settings
 BackgroundColor=Background Color
