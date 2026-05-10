@@ -11,6 +11,8 @@ PlayStyleGroupTitle=Play Style
 PlayStyleOption=Lyrics Play Style
 Opacity=Opacity
 InactiveOpacityOption=Inactive Line Opacity
+LetterSpacingAnimationSpeed=Letter Spacing Animation Speed
+LetterSpacingAnimationSpeedDescription=(experimental) By setting this preference to a non-zero value, marquee animation will be disabled while letter spacing will be animated.
 
 TextShadowGroupTitle=Text Shadow Settings
 ToggleTextShadow=Enabled?
