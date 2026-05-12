@@ -1,4 +1,4 @@
-# AIMP-Floating-Lyrics-Plugin-Localization
+# AIMP Floating Lyrics Plugin - Localization
 
 > Also see [Post on AIMP Forum](https://aimp.ru/forum/index.php?topic=77574.0).
 
@@ -40,6 +40,12 @@ To install and use this plugin,
 ![Configuration Panel in AIMP](/screenshots/configuration_panel_in_AIMP.jpg)
 
 ### Change Logs
+#### 1.2.0 (2026.05.10)
+- Migrate plugin's floating lyrics window implementation to Edge Webview2 to achieve a better animation performance.  
+- Add letter spacing preference as web platform supports them out of the box.  
+- Add an experimental preference that allows you to animate letter spacing under "Fade In Out Play Style", which looks fancy.  
+- Other minor bug fixes and optimizations, and changed some localization entries. 
+
 #### 1.0.3 (2026.04.21)
 
 - Support multi-language lrc file as 17hapi on AIMP forum suggests
