@@ -18,7 +18,7 @@ It has these features:
 5. About the lyrics editor, when it opens, it will fill basic information automatically if it finds that, otherwise, you need to input information yourself.
 6. Some hint to use the lyrics editor: Currently I exposed 3 hotkeys to inert/replace/delete timestamp on active line, they are bound with F7/F8/F9 keys globally by default. You can always change these hotkeys in AIMP's "Hotkeys" configuration, but remember, local hotkeys won't work, because the lyrics editor is not recognized by AIMP as local window. The inserted or replaced timestamp is always the timestamp that AIMP is current playing at, so ideally you just play the song once and inserted timestamps all by yourself. There are also some handy buttons there, you can hover on them to see brief descriptions.
 
-\*Tip: you can set lyrics playing window's background color to a totally transparent value, which looks fancy, but it will make context menu harder to open, you can preview in my screenshots.
+\*Tip: you can set lyrics playing window's background color to a totally transparent value, which looks fancy, but it will make context menu harder to open, if you really can't fetch context menu at that time, go to AIMP's "preferences - Floating Lyrics", you can open plugin's preference window there.
 
 ### How to Install & Use
 
@@ -28,8 +28,29 @@ To install and use this plugin,
     - for AIMP x64: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.26-windows-x64-installer
     - for AIMP x86: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.26-windows-x86-installer
 2. Download and install "Visual C++ Redistributable 2012" from https://www.microsoft.com/en-us/download/details.aspx?id=30679, make sure to pick x86 or x64, which depends on AIMP x86 or x64 your are using. (a known issue listed below also mentions this runtime package, if you are not sure, I recommend you just download and install it);
-3. Unzip "aimp*floating_lyrics_x[86_or_64]\_ver*[VERSION].zip" and drop extracted "aimp_floating_lyrics" folder to "[your-AIMP-x86-or-x64-installation-folder]/Plugins";
+3. Unzip "aimp_floating_lyrics_x[86\_or\_64]\_ver\_[VERSION].zip" and drop extracted "aimp_floating_lyrics" folder to "[your-AIMP-x86-or-x64-installation-folder]/Plugins";
 4. Finally, open AIMP and check "Floating Lyrics" menu item in AIMP's main menu to show lyrics player window and let's roll!
+
+### Troubleshooting
+
+1. If AIMP complains about an external exception when opening preference window, that's because my plugin is importing "msvcr110.dll" to make sure .net UI is compatible with AIMP's Delphi UI,  
+   when that happens, make sure to download and install "Visual C++ Redistributable 2012" here: https://www.microsoft.com/en-us/download/details.aspx?id=30679, plugin should work properly then.
+2. In some cases, AIMP might disable the plugin so you won't be able to use the plugin in AIMP, you can follow these steps to fix:
+
+> i. Make sure to close AIMP instance before proceed;  
+> ii. Open "AIMP.ini" file within "[your-AIMP-installation-directory]/Profile" directory, search and delete these lines (it may differ from your file, but should look similar):
+>
+> ```ini
+> [Plugins]
+> aimp_floating_lyrics.dll=0
+>
+> [Plugins.CachedInfo]
+> aimp_floating_lyrics.dll=0|||||1552900961
+> ```
+>
+> iii. If this still does not work, you can try to delete whole `[aimp_floating_lyrics_plugin]` section in "AIMP.ini" file, this will reset all configurations of my plugin.
+
+Try launching AIMP after that, plugin should work now.
 
 ### Plugin Screenshots
 
@@ -40,11 +61,13 @@ To install and use this plugin,
 ![Configuration Panel in AIMP](/screenshots/configuration_panel_in_AIMP.jpg)
 
 ### Change Logs
+
 #### 1.2.0 (2026.05.10)
-- Migrate plugin's floating lyrics window implementation to Edge Webview2 to achieve a better animation performance.  
-- Add letter spacing preference as web platform supports them out of the box.  
-- Add an experimental preference that allows you to animate letter spacing under "Fade In Out Play Style", which looks fancy.  
-- Other minor bug fixes and optimizations, and changed some localization entries. 
+
+- Migrate plugin's floating lyrics window implementation to Edge Webview2 to achieve better animation performance.
+- Add letter spacing preference as web platform supports them out of the box.
+- Add an experimental preference that allows you to animate letter spacing under "Fade In Out Play Style", which looks fancy.
+- Other minor bug fixes and optimizations, and modified some localization entries.
 
 #### 1.0.3 (2026.04.21)
 
