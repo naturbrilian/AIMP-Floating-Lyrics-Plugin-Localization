@@ -6,6 +6,7 @@ Name=Floating Lyrics Plugin
 Abbreviation=Floating Lyrics
 
 [FL_Preference]
+ResetDimension=Reset Window Size
 Preference=Preference
 PlayStyleGroupTitle=Play Style
 PlayStyleOption=Lyrics Play Style
