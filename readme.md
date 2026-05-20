@@ -62,6 +62,14 @@ Try launching AIMP after that, plugin should work now.
 
 ### Change Logs
 
+#### 1.2.1 (2026.05.20)
+- Add a preference, when enabled, floating lyrics window will not appear on taskbar  
+- Add a preference, when enabled, floating lyrics window will be hidden when no lyrics are found  
+- Add text stroke preference, which means outlined/hollow text is supported now  
+- Font family picker now respects AIMP's language: font family name now displays as AIMP language if possible  
+- Preference window's size is remembered now in case some user's screen is too small  
+- Other minor bug fixes and optimizations, and modified some localization entries  
+
 #### 1.2.0 (2026.05.10)
 
 - Migrate plugin's floating lyrics window implementation to Edge Webview2 to achieve better animation performance.
