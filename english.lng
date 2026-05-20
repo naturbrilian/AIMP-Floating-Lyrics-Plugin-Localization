@@ -62,10 +62,12 @@ RemoveTimestampDetail=Remove Timestamp from Current Line
 [LyricsPlayingWindow]
 StartEditLyrics=Make / Edit Lyrics
 ResetPositionAndDimension=Reset Position & Dimension
+ResetPositionAndDimension2=Reset Lyrics Playing Window's Position & Dimension
 CenterHorizontally=Center Window Horizontally
 EnableResizing=Enable Resizing
 DisableResizing=Disable Resizing
 OpenPreference=Preferences....
+OpenPreference2=Open Preferences Window
 WebViewNotInstalled=Edge WebView2 is not installed on your system, would you like to go download?
 WebViewNotInstalled2=Edge WebView2 is not installed on your system, plugin will not work >.<, you can download and install it from
 WebViewLowVersion=You are using an old version({0} < 124) of Edge WebView2, which may cause Floating Lyrics Plugin not working properly. You can try to upgrade your Edge Browser.
