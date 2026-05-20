@@ -53,11 +53,13 @@ Cancel=Cancel
 [LyricsEditor]
 Name=Lyrics Editor
 InsertTimestamp=Insert Timestamp
+InsertTimestampDetail=Insert Timestamp to Current Line
 ReplaceTimestamp=Replace Timestamp
+ReplaceTimestampDetail=Replace Timestamp of Current Line
 RemoveTimestamp=Remove Timestamp
+RemoveTimestampDetail=Remove Timestamp from Current Line
 
 [LyricsPlayingWindow]
-Title=Lyrics Editor
 StartEditLyrics=Make / Edit Lyrics
 ResetPositionAndDimension=Reset Position & Dimension
 CenterHorizontally=Center Window Horizontally
