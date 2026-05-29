@@ -36,6 +36,7 @@ LetterSpacing=Letter Spacing
 
 WindowSettingsGroupTitle=Window Settings
 BackgroundColor=Background Color
+EdgeFeatherWidth=Edge Feather Width
 ClickThrough=Click-Through
 AlwaysHideTaskbar=Always Hide on Taskbar
 AlwaysHideTaskbarDescription=[ATTENTION] If enabled this feature, lyrics floating window will also minimize if you clicked top-right minimize button on AIMP's main window, to prevent this, you can minimize AIMP 1. by using tray icon context menu - "Minimize to Tray"; 2. Or by setting tray icon's any mouse action(like One-Click) to "Show/Hide the Main Window", and minimize AIMP by doing so.
