@@ -4,6 +4,7 @@
 [FL_Main]
 Name=Floating Lyrics Plugin
 Abbreviation=Floating Lyrics
+Toggle=Toggle
 
 [FL_Preference]
 ResetDimension=Reset this Window Size
