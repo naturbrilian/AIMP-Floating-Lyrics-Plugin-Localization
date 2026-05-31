@@ -78,3 +78,4 @@ WebViewNavigationFailure=Edge WebView2 failed to navigate >.< Check if you have 
 [FL_OptionFrame]
 BtnOpenPreferenceWindow=Open Preferences Window
 BtnResetLyricsWindowLocation=Reset Lyrics Playing Window's Position and Dimension
+BtnDisableClickThrough=Disable Lyrics Playing Window Click-Through
