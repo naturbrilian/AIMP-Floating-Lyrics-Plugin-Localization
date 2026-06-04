@@ -62,13 +62,34 @@ Try launching AIMP after that, plugin should work now.
 
 ### Change Logs
 
+#### 1.2.3 (2026.06.04)
+
+- Fix(#6): At the edge of playing lyrics, shadow effect may be blocked by an invisible area, this happens because lyrics playing area is not set to full width of owner window
+- Fix inconsistent .NET `System.Convert` behavior among Windows OS with different regional format (Thanks for **Soolo** reporting the issue!)
+- Fix some memory leak issues as **Artem** points out (Thank you AIMP creator!), and with the help of CRT Library, some native C++ code is refactored in this update to get away such issue as much as possible
+
+#### 1.2.2 (2026.05.31)
+
+- optimize(#6 related): Add lyrics window edge feather effect and a corresponding preference to set feather width
+- Add a hotkey that allows to toggle lyrics window click-through behavior
+- Make preference window layout responsive, alongside some minor adjustments
+- Fix an issue happens when user toggles/restarts playing song, window would blink once when "Hide if No Lyrics" preference is enabled
+- Other minor fixes and optimizations
+
+#### 1.2.1.1 (2026.05.26)
+
+- Fix an issue when "Hide if No Lyrics" preference is enabled, there is a chance lyrics window not showing even if playing song has lyrics
+- Optimize option dialog implementation to embrace AIMP's Automatically Localization feature
+- Add some localization entries
+
 #### 1.2.1 (2026.05.20)
-- Add a preference, when enabled, floating lyrics window will not appear on taskbar  
-- Add a preference, when enabled, floating lyrics window will be hidden when no lyrics are found  
-- Add text stroke preference, which means outlined/hollow text is supported now  
-- Font family picker now respects AIMP's language: font family name now displays as AIMP language if possible  
-- Preference window's size is remembered now in case some user's screen is too small  
-- Other minor bug fixes and optimizations, and modified some localization entries  
+
+- Add a preference, when enabled, floating lyrics window will not appear on taskbar
+- Add a preference, when enabled, floating lyrics window will be hidden when no lyrics are found
+- Add text stroke preference, which means outlined/hollow text is supported now
+- Font family picker now respects AIMP's language: font family name now displays as AIMP language if possible
+- Preference window's size is remembered now in case some user's screen is too small
+- Other minor bug fixes and optimizations, and modified some localization entries
 
 #### 1.2.0 (2026.05.10)
 
