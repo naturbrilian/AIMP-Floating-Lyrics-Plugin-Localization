@@ -13,11 +13,12 @@ PlayStyleGroupTitle=Play Style
 PlayStyleOption=Lyrics Play Style
 PlayStyle_FadeInOut=Single Fade In & Out
 PlayStyle_HScroll=Horizontal Scroll
-PlayStyle_TwinLine=Twin-Line Fade In & Out
+PlayStyle_TwoLine=Two-Line Fade In & Out
 Opacity=Opacity
 InactiveOpacityOption=Inactive Line Opacity
 LetterSpacingAnimationSpeed=Letter Spacing Animation Speed
 LetterSpacingAnimationSpeedDescription=By setting this preference to a non-zero value, marquee animation will be disabled while letter spacing will be animated.
+TwoLineReverse=Swap Two Lines' Position
 
 TextShadowGroupTitle=Text Shadow Settings
 ToggleTextShadow=Enabled?
