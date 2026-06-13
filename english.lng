@@ -19,6 +19,7 @@ InactiveOpacityOption=Inactive Line Opacity
 LetterSpacingAnimationSpeed=Letter Spacing Animation Speed
 LetterSpacingAnimationSpeedDescription=By setting this preference to a non-zero value, marquee animation will be disabled while letter spacing will be animated.
 TwoLineReverse=Swap Two Lines' Position
+TwoLineVerticalGap=Two Lines' Spacing
 
 TextShadowGroupTitle=Text Shadow Settings
 ToggleTextShadow=Enabled?
@@ -54,6 +55,10 @@ Hide=Hide
 Save=Save & Apply
 Apply=Apply
 Cancel=Cancel
+
+Unit_px=(px)
+Unit_ch=(char)
+Unit_px_per_s=(px/s)
 
 [LyricsEditor]
 Name=Lyrics Editor
