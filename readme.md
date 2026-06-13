@@ -27,14 +27,21 @@ To install and use this plugin,
 1. Download and install ".NET 8.0 Desktop Runtime":
     - for AIMP x64: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.26-windows-x64-installer
     - for AIMP x86: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.26-windows-x86-installer
-2. Download and install "Visual C++ Redistributable 2012" from https://www.microsoft.com/en-us/download/details.aspx?id=30679, make sure to pick x86 or x64, which depends on AIMP x86 or x64 your are using. (a known issue listed below also mentions this runtime package, if you are not sure, I recommend you just download and install it);
+
+2. ~~Download and install "Visual C++ Redistributable 2012" from https://www.microsoft.com/en-us/download/details.aspx?id=30679, make sure to pick x86 or x64, which depends on AIMP x86 or x64 your are using. (a known issue listed below also mentions this runtime package, if you are not sure, I recommend you just download and install it);~~
+
+You no longer need to install VC++ 2012 since v1.2.4, plugin has already included necessary files.
+
 3. Unzip "aimp_floating_lyrics_x[86\_or\_64]\_ver\_[VERSION].zip" and drop extracted "aimp_floating_lyrics" folder to "[your-AIMP-x86-or-x64-installation-folder]/Plugins";
 4. Finally, open AIMP and check "Floating Lyrics" menu item in AIMP's main menu to show lyrics player window and let's roll!
 
 ### Troubleshooting
 
-1. If AIMP complains about an external exception when opening preference window, that's because my plugin is importing "msvcr110.dll" to make sure .net UI is compatible with AIMP's Delphi UI,  
-   when that happens, make sure to download and install "Visual C++ Redistributable 2012" here: https://www.microsoft.com/en-us/download/details.aspx?id=30679, plugin should work properly then.
+~~1. If AIMP complains about an external exception when opening preference window, that's because my plugin is importing "msvcr110.dll" to make sure .net UI is compatible with AIMP's Delphi UI,~~  
+~~when that happens, make sure to download and install "Visual C++ Redistributable 2012" here: https://www.microsoft.com/en-us/download/details.aspx?id=30679, plugin should work properly then.~~
+
+You no longer need to install VC++ 2012 since v1.2.4, plugin has already included necessary files.
+
 2. In some cases, AIMP might disable the plugin so you won't be able to use the plugin in AIMP, you can follow these steps to fix:
 
 > i. Make sure to close AIMP instance before proceed;  
