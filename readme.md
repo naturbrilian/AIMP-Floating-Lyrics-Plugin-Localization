@@ -69,6 +69,28 @@ Try launching AIMP after that, plugin should work now.
 
 ### Change Logs
 
+#### 1.2.5.fix1 (2026.06.16)
+
+- Fix Two-Line play style will not clean up stage if switching to a song without lyrics (bug reported by **Soolo**)
+- Fix an issue that Two-Line play style may not play first lyrics line if its starting time is too small
+- Make lyrics scroll window fades in/fades out if window is about to change visibility
+
+#### 1.2.5 (2026.06.14)
+
+- Implement Two-Line play style, which plays lyrics in two-line
+- Optimize One-Line play style: when playback pauses/resumes, animations will also pause/resume
+- Optimize animations when user starts/restarts/seeks/stops playback
+- Add `Fade Duration` preferences for both One-Line and Two-Line play styles (note that they did not share same preferences)
+- Optimize overall stability
+
+#### 1.2.4 (2026.06.14)
+
+- Optimize plugin's low native C++ layer to have better memory management
+- Drop the necessity of installing VC++ 2012 runtime
+- Optimize "edge feather width" preference implementation to prevent lyrics from being blocked by it
+- Support playing non-synchronized lyrics in `.txt`/`.lrc` files or embedded tag (suggested by **Artem**)
+- Fix .NET string formatting behaves inconsistently across different systems with different regional formats (bug reported by **Soolo**)
+
 #### 1.2.3 (2026.06.04)
 
 - Fix(#6): At the edge of playing lyrics, shadow effect may be blocked by an invisible area, this happens because lyrics playing area is not set to full width of owner window
