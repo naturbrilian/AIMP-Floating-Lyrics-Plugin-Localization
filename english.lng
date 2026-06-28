@@ -5,6 +5,7 @@
 Name=Floating Lyrics Plugin
 Abbreviation=Floating Lyrics
 Toggle=Toggle
+Warning=Warning
 
 [FL_Preference]
 ResetDimension=Reset this Window Size
@@ -23,7 +24,7 @@ TwoLineReverse=Swap Two Lines' Position
 TwoLineVerticalGap=Two Lines' Spacing
 
 TextShadowGroupTitle=Text Shadow Settings
-ToggleTextShadow=Enabled?
+EnableAsk=Enable?
 Color=Color
 OffsetX=Horizontal Offset
 OffsetY=Vertical Offset
@@ -31,6 +32,8 @@ BlurRadius=Blur Radius
 
 TextStrokeGroupTitle=Text Stroke Settings
 TextStrokeThickness=Thickness
+DropShadowGroupTitle=Stroke Shadow Settings
+DropShadowGroupHint=Stroke shadow works best when text shadow is disabled
 
 FontSettingsGroupTitle=Font Settings
 FontLatin=Latin Font
@@ -44,7 +47,7 @@ BackgroundColor=Background Color
 EdgeFeatherWidth=Edge Feather Width
 ClickThrough=Click-Through
 AlwaysHideTaskbar=Always Hide on Taskbar
-AlwaysHideTaskbarDescription=[ATTENTION] If enabled this feature, lyrics floating window will also minimize if you clicked top-right minimize button on AIMP's main window, to prevent this, you can minimize AIMP 1. by using tray icon context menu - "Minimize to Tray"; 2. Or by setting tray icon's any mouse action(like One-Click) to "Show/Hide the Main Window", and minimize AIMP by doing so.
+AlwaysHideTaskbarDescription=If this feature is enabled, lyrics floating window will also minimize if you clicked top-right minimize button on AIMP's main window, to prevent this, you can minimize AIMP by\n1. Using tray icon context menu - "Minimize to Tray";\n2. Setting tray icon's any mouse action(like One-Click) to "Show/Hide the Main Window", and minimize AIMP by doing so.
 HideWhenNoLyrics=Hide if No Lyrics
 Off=Off
 On=On
