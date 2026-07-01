@@ -32,6 +32,7 @@ BlurRadius=Blur Radius
 
 TextStrokeGroupTitle=Text Stroke Settings
 TextStrokeThickness=Thickness
+TextStrokeOutside=Use Outer Stroke
 DropShadowGroupTitle=Stroke Shadow Settings
 DropShadowGroupHint=Stroke shadow works best when text shadow is disabled
 
