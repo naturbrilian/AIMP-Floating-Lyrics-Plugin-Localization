@@ -25,16 +25,24 @@ TwoLineVerticalGap=Two Lines' Spacing
 
 TextShadowGroupTitle=Text Shadow Settings
 EnableAsk=Enable?
+ShadowImpl=Shadow Implementation (Advanced)
+ShadowImplDescription=Karaoke Mode can only render "Stroke" shadow implementation
+Automatic=Automatic
+Recommended=Recommended
+TextShadowImpl=Text
+StrokeShadowImpl=Stroke
+BothImpl=Both
 Color=Color
 OffsetX=Horizontal Offset
 OffsetY=Vertical Offset
 BlurRadius=Blur Radius
+StrokeShadowGroupTitle=Stroke Shadow Settings
+StrokeShadowGroupHint=Stroke shadow works better for text stroke
 
 TextStrokeGroupTitle=Text Stroke Settings
 TextStrokeThickness=Thickness
 TextStrokeOutside=Use Outer Stroke
-DropShadowGroupTitle=Stroke Shadow Settings
-DropShadowGroupHint=Stroke shadow works best when text shadow is disabled
+TextStrokeOutsideDescription=Outer Stroke renders outside of text color, while inner stroke acts opposite;\nInner Stroke will not render under Karaoke mode, this preference is always enabled at this time
 
 FontSettingsGroupTitle=Font Settings
 FontLatin=Latin Font
