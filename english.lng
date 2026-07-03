@@ -64,8 +64,11 @@ On=On
 MiscellaneousGroupTitle=Miscellaneous
 Show=Show
 Hide=Hide
+
+KaraokeGroupTitle=Karaoke Mode Settings
 KaraokeEnableAsk=Enable Karaoke Mode?
-KaraokeSpecific=Featuring Karaoke Preference
+KaraokeEnableAskDescription=More karaoke preferences resides on other panels
+KaraokeSpecific=Karaoke Featured Preference
 KaraokeTransitionWidth=Karaoke Transition Area Width
 
 Save=Save & Apply
