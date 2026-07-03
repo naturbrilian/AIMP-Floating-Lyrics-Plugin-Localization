@@ -65,6 +65,8 @@ MiscellaneousGroupTitle=Miscellaneous
 Show=Show
 Hide=Hide
 KaraokeEnableAsk=Enable Karaoke Mode?
+KaraokeSpecific=Featuring Karaoke Preference
+KaraokeTransitionWidth=Karaoke Transition Area Width
 
 Save=Save & Apply
 Apply=Apply
