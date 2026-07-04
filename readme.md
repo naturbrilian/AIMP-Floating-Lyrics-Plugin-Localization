@@ -87,7 +87,7 @@ Try launching AIMP after that, plugin should work now.
         - In karaoke mode, only "stroke" shadow implementation can be enabled, this preference has no effect under karaoke mode
 - Feat: Allow negative value for letter spacing preference, because some font family is spotted to be very loose even if letter spacing is 0
 - Optimize: Letter spacing animation in one line fade-in-out play style
-- Feat: when user sets transparency of background color to a very small value, mouse hovers on lyrics floating window when make background less transparent, because transparent floating window is not transparent for mouse clicks(as Artem previous points out), which may confuse users. If you don't want this feature, just enable "click-through" preference.
+- Feat: when user sets transparency of background color to a very small value, mouse hovers on lyrics floating window will make background less transparent, because transparent floating window is not transparent for mouse clicks(as Artem previously points out), which may confuse users. If you don't want this feature, just enable "click-through" preference.
 
 #### 1.2.5.fix2 (2026.06.19)
 
