@@ -69,6 +69,31 @@ Try launching AIMP after that, plugin should work now.
 
 ### Change Logs
 
+#### 1.3.0 (2026.07.04)
+
+- Feat: Add Karaoke Mode alongside these features
+    - Ability to style karaoke inactive parts' font color, shadow color and text stroke color, corresponding configurations appear on preference window when karaoke mode is enabled
+    - Ability to change karaoke transition area width. If set to 0%, there is no transition area, which many people may prefer
+    - Karaoke mode supports all 3 play styles
+- Feat: Add an preference which enables outer text stroke, which in my opinion looks better than inner text stroke(the old one)
+    - Limitation(s):
+        - In karaoke mode, outer text stroke is always enabled
+        - Outer text stroke does not support hollow text, i.e. if setting font color to a transparent value, text stroke inner part will not be transparent
+- Feat: Enhance text shadow settings, add shadow implementation preference:
+    - The default text shadow implementation does not look well when text stroke is enabled, so "stroke shadow" is introduced in this version, which looks better when text stroke is enabled
+    - The default value of shadow implementation preference is "Automatic", which enables "stroke shadow" only when text stroke is enabled and is recommended
+    - For advanced users, you can choose to enable one or both of them.
+    - Limitation(s):
+        - In karaoke mode, only "stroke" shadow implementation can be enabled, this preference has no effect under karaoke mode
+- Feat: Allow negative value for letter spacing preference, because some font family is spotted to be very loose even if letter spacing is 0
+- Optimize: Letter spacing animation in one line fade-in-out play style
+- Feat: when user sets transparency of background color to a very small value, mouse hovers on lyrics floating window when make background less transparent, because transparent floating window is not transparent for mouse clicks(as Artem previous points out), which may confuse users. If you don't want this feature, just enable "click-through" preference.
+
+#### 1.2.5.fix2 (2026.06.19)
+
+- Fix an issue that Two-Line play style may not play the lyrics line whose preceding line duration is too small (bug reported by Soolo)
+- Fix an issue that lyrics scroll window will not re-appear if user switches song quickly
+
 #### 1.2.5.fix1 (2026.06.16)
 
 - Fix Two-Line play style will not clean up stage if switching to a song without lyrics (bug reported by **Soolo**)
