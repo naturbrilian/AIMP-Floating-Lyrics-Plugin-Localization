@@ -61,7 +61,7 @@ Try launching AIMP after that, plugin should work now.
 
 ### Plugin Screenshots
 
-![Floating lyrics Window](/screenshots/floating_window.jpg)
+![Floating lyrics Window](/screenshots/floating_window.png)
 ![Floating lyrics Window Context Menu](/screenshots/context-menu.jpg)
 ![Lyrics Editor](/screenshots/lyrics_editor.jpg)
 ![Preference Window](/screenshots/preference_window.jpg)
