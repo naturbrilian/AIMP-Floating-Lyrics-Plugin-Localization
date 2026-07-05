@@ -18,8 +18,9 @@ PlayStyle_TwoLine=Two-Line Fade In & Out
 Opacity=Opacity
 InactiveOpacityOption=Inactive Line Opacity
 FadeDuration=Fade Animation Max Duration
+FadeDurationDescription=By setting to 0, no fade animation will be applied, it acts like movie subtitle player
 LetterSpacingAnimationSpeed=Letter Spacing Animation Speed
-LetterSpacingAnimationSpeedDescription=By setting this preference to a non-zero value, marquee animation will be disabled while letter spacing will be animated.
+LetterSpacingAnimationSpeedDescription=By setting to a non-zero value, marquee animation will be disabled while letter spacing will be animated
 TwoLineReverse=Swap Two Lines' Position
 TwoLineVerticalGap=Two Lines' Spacing
 
