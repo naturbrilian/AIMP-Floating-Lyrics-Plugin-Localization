@@ -65,7 +65,7 @@ On=On
 
 MiscellaneousGroupTitle=Miscellaneous
 PlayNonSynchronizedLyrics=Play Non-Synchronized Lyrics
-PlayNonSynchronizedLyricsDescription=Enable this if you'd like lyrics without timestamps to play\nThis preference takes effect after playback restarts
+PlayNonSynchronizedLyricsDescription=Enable this if you'd like lyrics without timestamps to play.\nThis preference takes effect after next song plays
 Show=Show
 Hide=Hide
 
