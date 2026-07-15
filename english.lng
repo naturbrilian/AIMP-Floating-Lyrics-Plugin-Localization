@@ -30,7 +30,6 @@ WhenUnSyncedLyricsFound_Play=Play with Current Play Style
 WhenUnSyncedLyricsFound_StackVertically=Stack Them Vertically
 WhenUnSyncedLyricsFound_StackHorizontally=Stack Them Horizontally
 
-
 TextShadowGroupTitle=Text Shadow Settings
 EnableAsk=Enable?
 ShadowImpl=Shadow Implementation (Advanced)
