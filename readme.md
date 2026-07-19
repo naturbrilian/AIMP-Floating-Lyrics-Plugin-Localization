@@ -89,7 +89,7 @@ Try launching AIMP after that, plugin should work now.
 
 #### 1.3.2 (2026.07.19)
 
-> Since this version, plugin will be released as `.aimppack` formats, to get plugin files without installation, rename it to `.zip`
+> Since this version, plugin will be mainly dispatched as `.aimppack` formats, to get plugin files without installation, rename it to `.zip`.
 
 - Feat: Add a preference to control non-synchronized lyrics playing behavior, user can choose to stack such lyrics vertically(default behavior) or horizontally, play with current play style(old behavior), or even do not show them at all (Suggested by many people including Soolo, Kenji Wolfgang)
 - Fix: Under karaoke mode, some font text gets incorrectly truncated at the edge, e.g. character `g`'s tail gets truncated on some fonts
